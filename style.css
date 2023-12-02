@@ -63,11 +63,13 @@
     font-size: 1.8rem;
     color: var(--color-base-gray-300);
   }
-  
+  .logo{
+    width: 40px;
+  }
+
   ul li.active {
     color: var(--color-base-gray-900);
   }
-  
   .input-wrapper label {
     width: 1px;
     height: 1px;
