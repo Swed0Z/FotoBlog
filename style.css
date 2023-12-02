@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    display: grid;
+    grid-template-rows: max-content 1fr max-content;
+    height: 100vh;
+    font-size: 1.6rem;
+}
+.container {
+    padding: 1.6rem 3.2rem;
+    width: min(112rem, 100%);
+    margin: 0 auto;
+}
+
+main {
+    overflow-y: scroll;
+}
